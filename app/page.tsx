@@ -2,6 +2,7 @@
 
 import { Instagram, MessageCircle, Facebook, Mail, Menu, X, Globe } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,13 +41,13 @@ export default function Home() {
   const currentLang = languages.find(l => l.code === locale) || languages[0];
   const t = translations || {};
 
-  const handleNavClick = (e) => {
+  const handleComingSoonClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     setShowComingSoon(true);
     setIsMenuOpen(false);
   };
 
-  const changeLanguage = (code) => {
+  const changeLanguage = (code: string) => {
     setLocale(code);
     setIsLangMenuOpen(false);
     setIsMenuOpen(false);
@@ -112,10 +113,18 @@ export default function Home() {
             
             {/* Desktop Menu */}
             <nav className="hidden md:flex items-center gap-6">
-              <a href="#about" onClick={handleNavClick} className="text-neutral-300 hover:text-white transition-colors text-sm font-medium">{t.header?.menu?.about}</a>
-              <a href="#vision" onClick={handleNavClick} className="text-neutral-300 hover:text-white transition-colors text-sm font-medium">{t.header?.menu?.vision}</a>
-              <a href="#vote" onClick={handleNavClick} className="text-neutral-300 hover:text-white transition-colors text-sm font-medium">{t.header?.menu?.vote}</a>
-              <a href="#faq" onClick={handleNavClick} className="text-neutral-300 hover:text-white transition-colors text-sm font-medium">{t.header?.menu?.faq}</a>
+              <Link href="/about" className="text-neutral-300 hover:text-white transition-colors text-sm font-medium">
+                {t.header?.menu?.about}
+              </Link>
+              <Link href="/vision" className="text-neutral-300 hover:text-white transition-colors text-sm font-medium">
+                {t.header?.menu?.vision}
+              </Link>
+              <Link href="/vote" className="text-neutral-300 hover:text-white transition-colors text-sm font-medium">
+                {t.header?.menu?.vote}
+              </Link>
+              <a href="#faq" onClick={handleComingSoonClick} className="text-neutral-300 hover:text-white transition-colors text-sm font-medium">
+                {t.header?.menu?.faq}
+              </a>
               
               {/* Language Selector */}
               <div className="relative">
@@ -165,30 +174,30 @@ export default function Home() {
             <div className="h-full flex items-center justify-center p-8">
               <div className="w-full max-w-md backdrop-blur-lg bg-white/5 rounded-3xl border border-white/10 p-8 shadow-2xl">
                 <nav className="flex flex-col space-y-6">
-                  <a 
-                    href="#about" 
-                    onClick={handleNavClick}
+                  <Link 
+                    href="/about"
+                    onClick={() => setIsMenuOpen(false)}
                     className="text-white hover:text-neutral-300 transition-all duration-300 text-2xl font-semibold text-center py-4 px-6 rounded-xl hover:bg-white/10 backdrop-blur-sm border border-transparent hover:border-white/20"
                   >
                     {t.header?.menu?.about}
-                  </a>
-                  <a 
-                    href="#vision" 
-                    onClick={handleNavClick}
+                  </Link>
+                  <Link 
+                    href="/vision"
+                    onClick={() => setIsMenuOpen(false)}
                     className="text-white hover:text-neutral-300 transition-all duration-300 text-2xl font-semibold text-center py-4 px-6 rounded-xl hover:bg-white/10 backdrop-blur-sm border border-transparent hover:border-white/20"
                   >
                     {t.header?.menu?.vision}
-                  </a>
-                  <a 
-                    href="#vote" 
-                    onClick={handleNavClick}
+                  </Link>
+                  <Link 
+                    href="/vote"
+                    onClick={() => setIsMenuOpen(false)}
                     className="text-white hover:text-neutral-300 transition-all duration-300 text-2xl font-semibold text-center py-4 px-6 rounded-xl hover:bg-white/10 backdrop-blur-sm border border-transparent hover:border-white/20"
                   >
                     {t.header?.menu?.vote}
-                  </a>
+                  </Link>
                   <a 
                     href="#faq" 
-                    onClick={handleNavClick}
+                    onClick={handleComingSoonClick}
                     className="text-white hover:text-neutral-300 transition-all duration-300 text-2xl font-semibold text-center py-4 px-6 rounded-xl hover:bg-white/10 backdrop-blur-sm border border-transparent hover:border-white/20"
                   >
                     {t.header?.menu?.faq}
@@ -316,7 +325,7 @@ export default function Home() {
               {t.contact?.description}
             </p>
             <a 
-              href="mailto:contact@example.com" 
+              href="mailto:contact@genz212.me" 
               className="inline-flex items-center gap-2 backdrop-blur-md bg-white hover:bg-white/90 text-black font-medium px-5 py-2.5 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg"
             >
               contact@genz212.me
