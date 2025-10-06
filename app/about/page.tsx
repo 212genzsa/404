@@ -4,9 +4,9 @@ import { ArrowLeft, Users, Target, Heart, Megaphone, BookOpen, Shield, Globe } f
 import { useState } from 'react';
 
 export default function AboutPage() {
-  const [locale] = useState('en');
+  const [locale] = useState<'en'>('en');
 
-  const content = {
+  const content: Record<string, any> = {
     en: {
       backButton: "Back to Home",
       hero: {
