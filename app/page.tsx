@@ -9,7 +9,7 @@ export default function Home() {
   const [locale, setLocale] = useState('ar');
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
   const [showComingSoon, setShowComingSoon] = useState(false);
-  const [translations, setTranslations] = useState(null);
+  const [translations, setTranslations] = useState<any>(null);
   
   const languages = [
     { code: 'ar', name: 'العربية', flag: '🇲🇦', dir: 'rtl', font: '' },
@@ -39,7 +39,7 @@ export default function Home() {
   }, [locale]);
 
   const currentLang = languages.find(l => l.code === locale) || languages[0];
-  const t = translations || {};
+  const t: any = translations || {};
 
   const handleComingSoonClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
