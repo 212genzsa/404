@@ -110,8 +110,8 @@ export default function AboutPage() {
 
           {/* Core Values */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-            {t.values.map((value, index) => {
-              const Icon = iconMap[value.icon];
+            {t.values.map((value: any, index: number) => {
+              const Icon = iconMap[value.icon as keyof typeof iconMap];
               return (
                 <div key={index} className="backdrop-blur-xl bg-white/5 rounded-2xl border border-white/10 p-8 hover:bg-white/10 transition-all duration-300">
                   <div className="backdrop-blur-lg bg-white/10 p-3 rounded-xl mb-4 inline-block border border-white/20">
