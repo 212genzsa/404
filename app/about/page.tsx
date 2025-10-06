@@ -137,7 +137,7 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold text-white">{t.community.title}</h2>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              {t.community.stats.map((stat, index) => (
+              {t.community.stats.map((stat: any, index: number) => (
                 <div key={index} className="text-center backdrop-blur-lg bg-white/5 rounded-2xl p-6 border border-white/10">
                   <div className="text-4xl font-bold text-white mb-2">{stat.number}</div>
                   <div className="text-neutral-400 text-sm">{stat.label}</div>
