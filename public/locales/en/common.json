@@ -1,0 +1,38 @@
+{
+  "header": {
+    "logo": "GenZ212 Morocco",
+    "menu": {
+      "about": "Who We Are",
+      "vision": "Our Vision",
+      "vote": "Your Vote Matters",
+      "faq": "FAQ"
+    }
+  },
+  "hero": {
+    "title": "A New Generation for Morocco",
+    "description": "Platform of young Moroccans fighting for justice, quality education, and healthcare for all. Join us and be part of the change"
+  },
+  "social": {
+    "instagram": {
+      "title": "Instagram",
+      "description": "Follow our activism and how we fight for our rights",
+      "members": "Activists"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "Join the discussion and plan fieldwork with us",
+      "members": "Members",
+      "online": "online"
+    },
+    "facebook": {
+      "title": "Facebook",
+      "description": "Follow our campaigns and protests",
+      "members": "Followers"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Want to join the struggle? Have ideas? Reach out to us",
+    "email": "contact@genz212.ma"
+  }
+}

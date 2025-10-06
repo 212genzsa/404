@@ -1,0 +1,38 @@
+{
+  "header": {
+    "logo": "GenZ212 Marrocos",
+    "menu": {
+      "about": "Quem somos",
+      "vision": "Nossa Visão",
+      "vote": "Seu voto importa",
+      "faq": "Perguntas Frequentes"
+    }
+  },
+  "hero": {
+    "title": "Uma nova geração para o Marrocos",
+    "description": "Plataforma de jovens marroquinos lutando por justiça, educação de qualidade e saúde para todos. Junte-se a nós e faça parte da mudança"
+  },
+  "social": {
+    "instagram": {
+      "title": "Instagram",
+      "description": "Acompanhe nosso ativismo e como lutamos por nossos direitos",
+      "members": "Ativistas"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "Participe da discussão e planeje ações de campo conosco",
+      "members": "Membros",
+      "online": "online"
+    },
+    "facebook": {
+      "title": "Facebook",
+      "description": "Acompanhe nossas campanhas e protestos",
+      "members": "Seguidores"
+    }
+  },
+  "contact": {
+    "title": "Entre em contato",
+    "description": "Quer se juntar à luta? Tem ideias? Entre em contato conosco",
+    "email": "contact@genz212.me"
+  }
+}

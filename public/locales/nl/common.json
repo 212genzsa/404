@@ -1,0 +1,38 @@
+{
+  "header": {
+    "logo": "GenZ212 Marokko",
+    "menu": {
+      "about": "Wie zijn wij",
+      "vision": "Onze Visie",
+      "vote": "Jouw stem telt",
+      "faq": "Veelgestelde vragen"
+    }
+  },
+  "hero": {
+    "title": "Een nieuwe generatie voor Marokko",
+    "description": "Platform van jonge Marokkanen die strijden voor rechtvaardigheid, kwaliteitsonderwijs en gezondheidszorg voor iedereen. Doe met ons mee en maak deel uit van de verandering"
+  },
+  "social": {
+    "instagram": {
+      "title": "Instagram",
+      "description": "Volg ons activisme en hoe we vechten voor onze rechten",
+      "members": "Activisten"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "Neem deel aan de discussie en plan veldwerk met ons",
+      "members": "Leden",
+      "online": "online"
+    },
+    "facebook": {
+      "title": "Facebook",
+      "description": "Volg onze campagnes en protesten",
+      "members": "Volgers"
+    }
+  },
+  "contact": {
+    "title": "Neem contact op",
+    "description": "Wil je je aansluiten bij de strijd? Heb je ideeën? Neem contact met ons op",
+    "email": "contact@genz212.me"
+  }
+}

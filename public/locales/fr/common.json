@@ -1,0 +1,38 @@
+{
+  "header": {
+    "logo": "GenZ212 Maroc",
+    "menu": {
+      "about": "Qui sommes-nous",
+      "vision": "Notre Vision",
+      "vote": "Ton vote compte",
+      "faq": "FAQ"
+    }
+  },
+  "hero": {
+    "title": "Une nouvelle génération pour le Maroc",
+    "description": "Plateforme de jeunes marocains qui luttent pour la justice, une éducation de qualité et la santé pour tous. Rejoins-nous et sois acteur du changement"
+  },
+  "social": {
+    "instagram": {
+      "title": "Instagram",
+      "description": "Suivez nos actions et comment nous luttons pour nos droits",
+      "members": "Militants"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "Rejoignez la discussion et planifiez avec nous les actions de terrain",
+      "members": "Membres",
+      "online": "en ligne"
+    },
+    "facebook": {
+      "title": "Facebook",
+      "description": "Suivez nos campagnes et manifestations",
+      "members": "Abonnés"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Vous voulez rejoindre la lutte? Vous avez des idées? Contactez-nous",
+    "email": "contact@genz212.me"
+  }
+}

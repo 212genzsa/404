@@ -1,0 +1,38 @@
+{
+  "header": {
+    "logo": "GenZ212 المغرب",
+    "menu": {
+      "about": "من نحن",
+      "vision": "رؤيتنا",
+      "vote": "صوتك حقك",
+      "faq": "الأسئلة الشائعة"
+    }
+  },
+  "hero": {
+    "title": "جيل جديد من أجل المغرب",
+    "description": "منصة شباب مغاربة كيناضلو من أجل العدالة، التعليم الجيد، و الصحة للجميع. انضم لينا و كون جزء من التغيير"
+  },
+  "social": {
+    "instagram": {
+      "title": "Instagram",
+      "description": "تابعونا و شوف كيفاش كنناضلو من أجل حقوقنا",
+      "members": "المناضلين"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "انضم للنقاش و خطط معانا للعمل الميداني",
+      "members": "الأعضاء",
+      "online": "نشط"
+    },
+    "facebook": {
+      "title": "Facebook",
+      "description": "تابع حملاتنا و الوقفات الاحتجاجية",
+      "members": "المتابعين"
+    }
+  },
+  "contact": {
+    "title": "راسلنا",
+    "description": "بغيتي تنضم للنضال؟ عندك أفكار؟ تواصل معانا",
+    "email": "contact@genz212.me"
+  }
+}

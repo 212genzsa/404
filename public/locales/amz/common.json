@@ -1,0 +1,38 @@
+{
+  "header": {
+    "logo": "GenZ212 ⵍⵎⵖⵔⵉⴱ",
+    "menu": {
+      "about": "ⵅⴰⴼ ⵏⵏⵖ",
+      "vision": "ⵜⴰⵏⵏⴰⵢⵜ ⵏⵏⵖ",
+      "vote": "ⵉⵣⵔⴼⴰⵏ ⵏⵏⴽ",
+      "faq": "ⵉⵙⵇⵙⵉⵜⵏ"
+    }
+  },
+  "hero": {
+    "title": "ⵜⴰⵙⵓⵜⴰ ⵜⴰⵎⴰⵢⵏⵓⵜ ⵉ ⵍⵎⵖⵔⵉⴱ",
+    "description": "ⵜⴰⵎⵙⴰⵡⴰⵍⵜ ⵏ ⵉⵎⵥⵢⴰⵏⵏ ⵉⵎⵖⵔⵉⴱⵉⵢⵏ ⴰⵔ ⵏⵜⵜⵏⴰⵖⴰⵍ ⵅⴼ ⵜⴰⴷⵓⵙⵉ, ⵓⵙⵙⵍⵎⴷ ⴷ ⵜⴷⵓⵙⵉ. ⴽⵛⵎ ⴷⵉⴷⵏⵖ ⴰⵔ ⵜⴳⵜ ⴰⵙⴳⴰⵡ ⵏ ⵓⵙⵏⴼⵍ"
+  },
+  "social": {
+    "instagram": {
+      "title": "Instagram",
+      "description": "ⴹⴰⴼⵕ ⴰⵖ ⵜⵥⵕⴷ ⵎⴰⵎⴽ ⴰⵔ ⵏⵜⵜⵏⴰⵖⴰⵍ ⵅⴼ ⵉⵣⵔⴼⴰⵏ ⵏⵏⵖ",
+      "members": "ⵉⵎⵏⴰⵖⴰⵍⵏ"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "ⴽⵛⵎ ⵉ ⵓⵎⵙⴰⵡⴰⵍ ⵙⵙⴽⵔ ⴷⵉⴷⵏⵖ ⵜⵉⵡⵓⵔⵉⵡⵉⵏ",
+      "members": "ⵉⴳⵎⴰⵎⵏ",
+      "online": "ⵢⵓⵙⵔ"
+    },
+    "facebook": {
+      "title": "Facebook",
+      "description": "ⴹⴼⵕ ⵜⵉⵎⵙⴰⵔⵉⵏ ⵏⵏⵖ ⴷ ⵜⵉⵏⵓⴱⴳⴰ",
+      "members": "ⵉⴹⴼⴰⵕⵏ"
+    }
+  },
+  "contact": {
+    "title": "ⵎⵢⴰⵡⴰⴹ ⴷⵉⴷⵏⵖ",
+    "description": "ⵜⵔⵉⴷ ⴰⴷ ⵜⴽⵛⵎⴷ? ⵖⵓⵔⴽ ⵜⵉⵡⵏⴳⵉⵎⵉⵏ? ⵎⵢⴰⵡⴰⴹ ⴷⵉⴷⵏⵖ",
+    "email": "contact@genz212.me"
+  }
+}
