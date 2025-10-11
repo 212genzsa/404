@@ -35,4 +35,95 @@
     "description": "Want to join the struggle? Have ideas? Reach out to us",
     "email": "contact@genz212.ma"
   }
+
+},
+{
+  "vision": {
+    "hero": {
+      "title": "Our Vision for Freedom",
+      "description": "Gen Z 212 envisions a Morocco where transparency replaces corruption, where justice serves all citizens equally, and where the voice of the people shapes our collective future. This is our roadmap to liberation.",
+      "status": "Active Movement"
+    },
+    "valuesTitle": "Our Core Values",
+    "values": {
+      "transparency": {
+        "title": "Transparency",
+        "desc": "Exposing corruption and holding power accountable through radical transparency."
+      },
+      "justice": {
+        "title": "Justice",
+        "desc": "Fighting for equal rights and fair treatment for all citizens."
+      },
+      "unity": {
+        "title": "Unity",
+        "desc": "Building bridges across communities, cultures, and generations."
+      },
+      "voice": {
+        "title": "Voice",
+        "desc": "Amplifying the unheard and giving power to the people."
+      },
+      "education": {
+        "title": "Education",
+        "desc": "Empowering through knowledge, critical thinking, and civic awareness."
+      },
+      "solidarity": {
+        "title": "Solidarity",
+        "desc": "Standing together for collective liberation and mutual support."
+      }
+    },
+    "roadmapTitle": "Roadmap to Liberation",
+    "roadmapDesc": "Our strategic plan for achieving systemic change through grassroots organizing, transparency, and collective action.",
+    "phase": "Phase",
+    "activeNow": "Active Now",
+    "future": "Future",
+    "achievements": "Achievements",
+    "goals": "Strategic Goals",
+    "roadmap": {
+      "phase1": {
+        "title": "Awakening",
+        "subtitle": "2024-2025: Building Awareness",
+        "goal1": "Reach 500K+ community members across all platforms",
+        "goal2": "Launch corruption database with 100+ documented cases",
+        "goal3": "Establish local chapters in 12 major cities",
+        "goal4": "Create educational content reaching 1M+ views",
+        "goal5": "Build coalition with 50+ civil society organizations",
+        "ach1": "200K+ Instagram followers",
+        "ach2": "200K+ Discord community members",
+        "ach3": "Launched transparency platform"
+      },
+      "phase2": {
+        "title": "Mobilization",
+        "subtitle": "2025-2026: Building Power",
+        "goal1": "Organize nationwide peaceful protests and demonstrations",
+        "goal2": "Launch citizen journalism initiative",
+        "goal3": "Establish legal defense fund for activists",
+        "goal4": "Create independent media platform",
+        "goal5": "Form youth parliament shadow government"
+      },
+      "phase3": {
+        "title": "Transformation",
+        "subtitle": "2026-2027: Systemic Change",
+        "goal1": "Push for constitutional reforms",
+        "goal2": "Establish anti-corruption enforcement mechanisms",
+        "goal3": "Create transparent government accountability systems",
+        "goal4": "Launch economic justice initiatives",
+        "goal5": "Build sustainable alternative institutions"
+      },
+      "phase4": {
+        "title": "Liberation",
+        "subtitle": "2027+: A Free Morocco",
+        "goal1": "Achieve full governmental transparency",
+        "goal2": "Establish direct democracy mechanisms",
+        "goal3": "Ensure freedom of press and expression",
+        "goal4": "Create equitable economic systems",
+        "goal5": "Build truly representative governance"
+      }
+    },
+    "cta": {
+      "title": "Join the Movement",
+      "description": "The future of Morocco depends on our collective action. Every voice matters, every action counts. Together, we can build the free and just society we deserve.",
+      "joinDiscord": "Join Our Discord",
+      "viewDatabase": "View Corruption Database"
+    }
+  }
 }
