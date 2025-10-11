@@ -263,7 +263,10 @@ export default function VisionPage() {
           <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/10 p-8 md:p-12">
             <div className="flex items-center gap-4 mb-8">
               <div className={`backdrop-blur-md ${getPhaseColor(roadmapPhases[activePhase].status)} p-4 rounded-2xl border`}>
-                <roadmapPhases[activePhase].icon className="w-10 h-10 text-white" />
+                {(() => {
+                  const IconComponent = roadmapPhases[activePhase].icon;
+                  return <IconComponent className="w-10 h-10 text-white" />;
+                })()}
               </div>
               <div>
                 <div className="flex items-center gap-3 mb-2">
