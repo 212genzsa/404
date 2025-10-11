@@ -2,8 +2,10 @@
   "header": {
     "logo": "GenZ212 Morocco",
     "menu": {
+      "home": "Home",
       "about": "Who We Are",
       "vision": "Our Vision",
+      "corrupt": "Corruption Database",
       "vote": "Your Vote Matters",
       "faq": "FAQ"
     }
@@ -32,12 +34,49 @@
   },
   "contact": {
     "title": "Contact Us",
-    "description": "Want to join the struggle? Have ideas? Reach out to us",
-    "email": "contact@genz212.ma"
-  }
-
-},
-{
+    "description": "Want to join the struggle? Have ideas? Reach out to us"
+  },
+  "comingSoon": {
+    "title": "Coming Soon!",
+    "message": "This feature is currently under development. Stay tuned!",
+    "button": "Got it"
+  },
+  "loading": "Loading...",
+  "corrupt": {
+    "title": "Corruption Database",
+    "subtitle": "Exposing corruption for transparency and accountability",
+    "featured": "Most Notorious",
+    "categories": {
+      "all": "All",
+      "politician": "Politicians",
+      "businessman": "Business Leaders",
+      "official": "Government Officials"
+    },
+    "stats": {
+      "total": "Total Cases",
+      "stolen": "Stolen (MAD)",
+      "active": "Active Cases",
+      "convictions": "Convictions"
+    },
+    "status": {
+      "active": "Active",
+      "convicted": "Convicted",
+      "investigated": "Under Investigation"
+    },
+    "cases": "Cases",
+    "amount": "Amount",
+    "viewDetails": "View Details",
+    "noData": "No data available in this category",
+    "backToList": "Back to List",
+    "totalCases": "Total Cases",
+    "totalStolen": "Total Stolen",
+    "category": "Category",
+    "casesTitle": "Corruption Cases",
+    "noCases": "No cases documented yet",
+    "caseNumber": "Case",
+    "evidence": "Evidence Documents",
+    "notFound": "Person not found"
+  },
   "vision": {
     "hero": {
       "title": "Our Vision for Freedom",
