@@ -179,59 +179,7 @@ export default function CorruptPage() {
                           alt={getLocalizedField(person, 'name')}
                           className="w-full h-full object-cover"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-                  <div className="absolute top-3 right-3">
-                    <span className={`px-3 py-1 rounded-full text-xs font-semibold backdrop-blur-md border ${
-                      person.status === 'convicted' 
-                        ? 'bg-green-500/20 border-green-500/50 text-green-300'
-                        : person.status === 'investigated'
-                        ? 'bg-yellow-500/20 border-yellow-500/50 text-yellow-300'
-                        : 'bg-red-500/20 border-red-500/50 text-red-300'
-                    }`}>
-                      {t.corrupt?.status?.[person.status] || person.status}
-                    </span>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-white mb-1 group-hover:text-neutral-200 transition-colors">
-                    {getLocalizedField(person, 'name')}
-                  </h3>
-                  <p className="text-red-400 text-sm mb-3">{getLocalizedField(person, 'position')}</p>
-                  <p className="text-neutral-400 text-sm mb-4 line-clamp-2">
-                    {getLocalizedField(person, 'description')}
-                  </p>
-                  <div className="flex gap-3">
-                    <div className="flex-1 backdrop-blur-md bg-white/5 rounded-lg p-3 border border-white/10">
-                      <div className="text-xs text-neutral-400 mb-1">{t.corrupt?.cases || 'Cases'}</div>
-                      <div className="text-lg font-bold text-white">{person.cases_count}</div>
-                    </div>
-                    {person.amount_stolen && (
-                      <div className="flex-1 backdrop-blur-md bg-white/5 rounded-lg p-3 border border-white/10">
-                        <div className="text-xs text-neutral-400 mb-1">{t.corrupt?.amount || 'Amount'}</div>
-                        <div className="text-lg font-bold text-red-400">
-                          {person.amount_stolen >= 1000000000
-                            ? `${(person.amount_stolen / 1000000000).toFixed(1)}B`
-                            : `${(person.amount_stolen / 1000000).toFixed(1)}M`}
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        )}
-
-        {corruptPeople.length === 0 && !loading && (
-          <div className="text-center py-20 backdrop-blur-xl bg-white/5 rounded-2xl border border-white/10">
-            <AlertCircle className="w-16 h-16 text-neutral-500 mx-auto mb-4" />
-            <p className="text-xl text-neutral-300">{t.corrupt?.noData || 'No data available'}</p>
-          </div>
-        )}
-      </div>
-    </div>
-  );
-} bg-gradient-to-t md:bg-gradient-to-r from-black/80 to-transparent"></div>
+                        <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-black/80 to-transparent"></div>
                       </div>
                       <div className="md:w-1/2 p-8 flex flex-col justify-center">
                         <h3 className="text-3xl font-bold text-white mb-2">
@@ -336,4 +284,56 @@ export default function CorruptPage() {
                     alt={getLocalizedField(person, 'name')}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-                  <div className="absolute inset-0
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                  <div className="absolute top-3 right-3">
+                    <span className={`px-3 py-1 rounded-full text-xs font-semibold backdrop-blur-md border ${
+                      person.status === 'convicted' 
+                        ? 'bg-green-500/20 border-green-500/50 text-green-300'
+                        : person.status === 'investigated'
+                        ? 'bg-yellow-500/20 border-yellow-500/50 text-yellow-300'
+                        : 'bg-red-500/20 border-red-500/50 text-red-300'
+                    }`}>
+                      {t.corrupt?.status?.[person.status] || person.status}
+                    </span>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-white mb-1 group-hover:text-neutral-200 transition-colors">
+                    {getLocalizedField(person, 'name')}
+                  </h3>
+                  <p className="text-red-400 text-sm mb-3">{getLocalizedField(person, 'position')}</p>
+                  <p className="text-neutral-400 text-sm mb-4 line-clamp-2">
+                    {getLocalizedField(person, 'description')}
+                  </p>
+                  <div className="flex gap-3">
+                    <div className="flex-1 backdrop-blur-md bg-white/5 rounded-lg p-3 border border-white/10">
+                      <div className="text-xs text-neutral-400 mb-1">{t.corrupt?.cases || 'Cases'}</div>
+                      <div className="text-lg font-bold text-white">{person.cases_count}</div>
+                    </div>
+                    {person.amount_stolen && (
+                      <div className="flex-1 backdrop-blur-md bg-white/5 rounded-lg p-3 border border-white/10">
+                        <div className="text-xs text-neutral-400 mb-1">{t.corrupt?.amount || 'Amount'}</div>
+                        <div className="text-lg font-bold text-red-400">
+                          {person.amount_stolen >= 1000000000
+                            ? `${(person.amount_stolen / 1000000000).toFixed(1)}B`
+                            : `${(person.amount_stolen / 1000000).toFixed(1)}M`}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        )}
+
+        {corruptPeople.length === 0 && !loading && (
+          <div className="text-center py-20 backdrop-blur-xl bg-white/5 rounded-2xl border border-white/10">
+            <AlertCircle className="w-16 h-16 text-neutral-500 mx-auto mb-4" />
+            <p className="text-xl text-neutral-300">{t.corrupt?.noData || 'No data available'}</p>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
