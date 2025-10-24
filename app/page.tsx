@@ -214,14 +214,14 @@ export default function CountdownAnnouncement() {
   const currentLang = languages.find(l => l.code === locale) || languages[0];
   const t = translations[locale as keyof typeof translations];
 
-  // Calculate time remaining until October 17, 2025 at 1:00 AM (Morocco time)
+  // Calculate time remaining until Sunday, October 26, 2025 at 11:59 PM (user's local time)
   useEffect(() => {
-    // Using UTC time - Morocco is UTC+1, so 1 AM Morocco = 00:00 UTC
-    const targetDate = new Date('2025-10-17T00:00:00Z');
+    // Set target date: October 26, 2025 at 23:59:59 (11:59 PM) in user's local timezone
+    const targetDate = new Date(2025, 9, 26, 23, 59, 59); // Month is 0-indexed (9 = October)
 
     const updateTimer = () => {
-      const now = new Date();
-      const distance = targetDate.getTime() - now.getTime();
+      const currentTime = new Date();
+      const distance = targetDate.getTime() - currentTime.getTime();
 
       if (distance > 0) {
         setTimeLeft({
