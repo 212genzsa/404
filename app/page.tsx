@@ -186,13 +186,14 @@ export default function CountdownAnnouncement() {
   const currentLang = languages.find(l => l.code === locale) || languages[0];
   const t = translations[locale as keyof typeof translations];
 
-  // Calculate time remaining until October 17, 2025 at 1:00 AM
+  // Calculate time remaining until October 17, 2025 at 1:00 AM (Morocco time)
   useEffect(() => {
-    const targetDate = new Date('2025-10-17T01:00:00');
+    // Using UTC time - Morocco is UTC+1, so 1 AM Morocco = 00:00 UTC
+    const targetDate = new Date('2025-10-17T00:00:00Z');
 
     const updateTimer = () => {
-      const now = new Date().getTime();
-      const distance = targetDate.getTime() - now;
+      const now = new Date();
+      const distance = targetDate.getTime() - now.getTime();
 
       if (distance > 0) {
         setTimeLeft({
@@ -230,53 +231,65 @@ export default function CountdownAnnouncement() {
         <div className={`absolute bottom-20 right-10 w-96 h-96 ${darkMode ? 'bg-purple-500/10' : 'bg-purple-200/30'} rounded-full blur-3xl animate-pulse delay-1000`}></div>
       </div>
 
-      {/* Controls */}
-      <div className="fixed top-6 right-6 z-50 flex gap-3">
-        {/* Language Selector */}
-        <div className="relative">
-          <button
-            onClick={() => setShowLangMenu(!showLangMenu)}
-            className={`p-3 rounded-full ${cardBg} border backdrop-blur-lg shadow-lg hover:scale-110 transition-all duration-300 flex items-center gap-2`}
-          >
-            <Globe className={`w-6 h-6 ${textPrimary}`} />
-            <span className="text-lg">{currentLang.flag}</span>
-          </button>
-          
-          {showLangMenu && (
-            <div className={`absolute top-full mt-2 right-0 ${cardBg} border backdrop-blur-xl rounded-xl shadow-2xl overflow-hidden min-w-[200px]`}>
-              {languages.map((lang) => (
-                <button
-                  key={lang.code}
-                  onClick={() => {
-                    setLocale(lang.code);
-                    setShowLangMenu(false);
-                  }}
-                  className={`w-full px-4 py-3 text-left hover:bg-white/5 transition-colors flex items-center gap-3 ${
-                    locale === lang.code ? 'bg-white/10' : ''
-                  }`}
-                >
-                  <span className="text-xl">{lang.flag}</span>
-                  <span className={textPrimary}>{lang.name}</span>
-                </button>
-              ))}
+      {/* Header */}
+      <header className={`fixed top-0 left-0 right-0 z-50 ${cardBg} border-b backdrop-blur-xl shadow-lg`}>
+        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+          {/* Left Side - Controls */}
+          <div className="flex items-center gap-3">
+            {/* Language Selector */}
+            <div className="relative">
+              <button
+                onClick={() => setShowLangMenu(!showLangMenu)}
+                className={`p-3 rounded-full ${cardBg} border backdrop-blur-lg shadow-lg hover:scale-110 transition-all duration-300 flex items-center gap-2`}
+              >
+                <Globe className={`w-6 h-6 ${textPrimary}`} />
+                <span className="text-lg">{currentLang.flag}</span>
+              </button>
+              
+              {showLangMenu && (
+                <div className={`absolute top-full mt-2 left-0 ${cardBg} border backdrop-blur-xl rounded-xl shadow-2xl overflow-hidden min-w-[200px]`}>
+                  {languages.map((lang) => (
+                    <button
+                      key={lang.code}
+                      onClick={() => {
+                        setLocale(lang.code);
+                        setShowLangMenu(false);
+                      }}
+                      className={`w-full px-4 py-3 text-left hover:bg-white/5 transition-colors flex items-center gap-3 ${
+                        locale === lang.code ? 'bg-white/10' : ''
+                      }`}
+                    >
+                      <span className="text-xl">{lang.flag}</span>
+                      <span className={textPrimary}>{lang.name}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
-          )}
+
+            {/* Dark/Light Mode Toggle */}
+            <button
+              onClick={() => setDarkMode(!darkMode)}
+              className={`p-3 rounded-full ${cardBg} border backdrop-blur-lg shadow-lg hover:scale-110 transition-all duration-300`}
+            >
+              {darkMode ? (
+                <Sun className="w-6 h-6 text-yellow-400" />
+              ) : (
+                <Moon className="w-6 h-6 text-gray-700" />
+              )}
+            </button>
+          </div>
+
+          {/* Right Side - Logo */}
+          <div className={`backdrop-blur-lg bg-white/10 p-3 rounded-xl border border-white/20 shadow-lg`}>
+            <div className="w-12 h-12 flex items-center justify-center overflow-hidden">
+              <img src="/X.png" alt="Logo" className="w-full h-full object-contain" />
+            </div>
+          </div>
         </div>
+      </header>
 
-        {/* Dark/Light Mode Toggle */}
-        <button
-          onClick={() => setDarkMode(!darkMode)}
-          className={`p-3 rounded-full ${cardBg} border backdrop-blur-lg shadow-lg hover:scale-110 transition-all duration-300`}
-        >
-          {darkMode ? (
-            <Sun className="w-6 h-6 text-yellow-400" />
-          ) : (
-            <Moon className="w-6 h-6 text-gray-700" />
-          )}
-        </button>
-      </div>
-
-      <div className="relative z-10 container mx-auto px-4 py-12 max-w-6xl">
+      <div className="relative z-10 container mx-auto px-4 py-12 max-w-6xl mt-24">
         {/* Alert Banner */}
         <div className={`${accentBg} border rounded-2xl p-6 mb-8 backdrop-blur-lg shadow-xl`}>
           <div className="flex items-center justify-center gap-3 mb-2">
