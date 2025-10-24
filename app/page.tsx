@@ -39,6 +39,10 @@ export default function CountdownAnnouncement() {
       point3: '• نشر معلومات مضللة استراتيجية',
       whatMeansTitle: 'ماذا يعني هذا',
       whatMeans: 'هذا الإعلان بمثابة تحذير ودعوة للشفافية. الأفراد المسؤولون استخدموا هذه المنصة لتعزيز أجندات تتعارض بشكل مباشر مع رفاهية أمتنا وشعبها. خلال 3 أيام، سننشر وثائق شاملة وسجلات اتصالات وأدلة تكشف المدى الكامل لهذه العملية المنسقة.',
+      solidarityTitle: 'تضامننا مع المناضلين',
+      solidarity1: 'نقف بكل فخر وإجلال مع كل من تم اعتقالهم ظلماً في هذه الحركة ومع عائلات الشهداء الذين ضحوا بحياتهم من أجل الحرية والعدالة.',
+      solidarity2: 'نحن معكم في كل نضالاتكم من أجل الحرية والكرامة الإنسانية. كل حركة من أجل حرية الشعوب وعدالتها هي حركتنا. سنواصل النضال حتى تتحقق الحرية والعدالة للجميع.',
+      solidarity3: 'للمعتقلين: أنتم لستم وحدكم. للشهداء: لن ننساكم أبداً. للمناضلين: نحن معكم حتى النصر.',
       truth: 'الحقيقة لا يمكن أن تبقى مخفية. العدالة يجب أن تتحقق.',
       promise: 'هذا ليس تهديداً. هذا وعد بالشفافية والمساءلة.',
       contact: 'للتحقق والاتصال: contact@genz212.me'
@@ -62,6 +66,10 @@ export default function CountdownAnnouncement() {
       point3: '• ⴰⵙⵏⴼⴰⵍ ⵏ ⵉⵙⴰⵍⵏ ⵉⵎⵣⴳⴰⵏ',
       whatMeansTitle: 'ⵎⴰⴷ ⵉⵙⵙⴽⴰⵔ ⴰⵢⴰ',
       whatMeans: 'ⴰⵙⵙⵏⵎⴰⵍ-ⴰ ⵉⴳⴰ ⵢⴰⵏ ⵓⵙⵎⵓⵍⵙ ⴷ ⵢⴰⵜ ⵜⵙⴰⵡⴰⵍⵜ ⵉ ⵓⵙⵎⵢⴰⵏⴰ. ⴷⴳ 3 ⵏ ⵡⵓⵙⵙⴰⵏ, ⴰⴷ ⵏⴼⵙⵔ ⴰⵙⵏⵎⵓⵍ ⴰⵛⵛⴰⵕⴰⵏ ⴷ ⵉⵏⵎⵎⴰⵍⵏ.',
+      solidarityTitle: 'ⴰⵎⵢⴰⵡⴰⵙ ⵏⵏⵖ ⴷ ⵉⵎⵏⴰⵖⵏ',
+      solidarity1: 'ⵏⵇⵇⵉⵎ ⴷ ⵡⵉⵏⵏⴰ ⵢⵓⵔⵣⵏ ⵙ ⵜⵓⵔⵣⵉ ⴷ ⵜⵡⴰⵛⵓⵍⵉⵏ ⵏ ⵉⵎⵏⵖⴰⵏ ⵉⵎⵉⴷⴷⵓⵔⵏ.',
+      solidarity2: 'ⵏⴽⴽⵉⵏⵉ ⴷⵉⴷⵡⵏ ⴷⴳ ⴽⵓ ⵉⵎⵏⴰⵖⵏ ⵏⵏⵡⵏ ⵉ ⵜⵉⵍⴻⵍⵍⵉ ⴷ ⵜⵎⵏⵜⵉⵍⵜ. ⴰⴷ ⵏⴽⵎⵎⵍ ⴰⵎⵏⴰⵖ ⴰⵔ ⴰⴷ ⵜⵉⵍⵉ ⵜⵉⵍⴻⵍⵍⵉ ⴷ ⵍⵃⴰⵇ ⵉ ⵎⴰⵕⵕⴰ.',
+      solidarity3: 'ⵉ ⵉⵎⵙⵓⵔⴰⵣ: ⵓⵔ ⵜⴻⵍⵍⵉⵎ ⵉⵎⴰⵡⵍⴰⵏ. ⵉ ⵉⵎⵏⵖⴰⵏ: ⴰⴷ ⵏⴽⵎⵎⵍ ⴰⵔ ⵜⵓⵖⵍⴰⴱⵜ.',
       truth: 'ⵜⵉⴷⵜ ⵓⵔ ⵜⵣⴹⴰⵕ ⴰⴷ ⵜⵇⵇⵉⵎ ⵜⴼⴼⵔⵜ. ⵍⵃⴰⵇ ⵉⵅⵚⵚⴰ ⴰⴷ ⵉⵍⵉ.',
       promise: 'ⴰⵢⴰ ⵓⵔ ⴳⵉⵙ ⴰⵙⵎⴰⵍⵍⵙ. ⴰⵢⴰ ⴷ ⴰⵡⴰⴷ ⵏ ⵓⵙⵎⵢⴰⵏⴰ.',
       contact: 'ⵉ ⵓⵙⵏⵜⵎ: contact@genz212.me'
@@ -85,6 +93,10 @@ export default function CountdownAnnouncement() {
       point3: '• Diffusion stratégique de désinformation',
       whatMeansTitle: 'Ce que cela signifie',
       whatMeans: 'Cette annonce sert d\'avertissement et d\'appel à la transparence. Les individus responsables ont utilisé cette plateforme pour promouvoir des agendas qui contredisent directement le bien-être de notre nation et de son peuple. Dans 3 jours, nous publierons une documentation complète, des enregistrements de communications et des preuves révélant toute l\'étendue de cette opération coordonnée.',
+      solidarityTitle: 'Notre Solidarité avec les Combattants',
+      solidarity1: 'Nous nous tenons fièrement aux côtés de tous ceux qui ont été injustement arrêtés dans ce mouvement et avec les familles des martyrs qui ont sacrifié leur vie pour la liberté et la justice.',
+      solidarity2: 'Nous sommes avec vous dans toutes vos luttes pour la liberté et la dignité humaine. Chaque mouvement pour la liberté et la justice des peuples est notre mouvement. Nous continuerons à lutter jusqu\'à ce que la liberté et la justice soient obtenues pour tous.',
+      solidarity3: 'Aux détenus : vous n\'êtes pas seuls. Aux martyrs : nous ne vous oublierons jamais. Aux combattants : nous sommes avec vous jusqu\'à la victoire.',
       truth: 'La vérité ne peut rester cachée. La justice doit être rendue.',
       promise: 'Ce n\'est pas une menace. C\'est une promesse de transparence et de responsabilité.',
       contact: 'Pour vérification et contact : contact@genz212.me'
@@ -108,6 +120,10 @@ export default function CountdownAnnouncement() {
       point3: '• Strategic misinformation spread',
       whatMeansTitle: 'What This Means',
       whatMeans: 'This announcement serves as a warning and a call for transparency. The individuals responsible have used this platform to further agendas that directly contradict the wellbeing of our nation and its people. In 3 days, we will release comprehensive documentation, communications records, and evidence that reveals the full extent of this coordinated operation.',
+      solidarityTitle: 'Our Solidarity with Freedom Fighters',
+      solidarity1: 'We stand proudly and with deep respect alongside all those who have been unjustly arrested in this movement and with the families of the martyrs who sacrificed their lives for freedom and justice.',
+      solidarity2: 'We are with you in all your struggles for freedom and human dignity. Every movement for the freedom and justice of people is our movement. We will continue the fight until freedom and justice are achieved for all.',
+      solidarity3: 'To the detained: you are not alone. To the martyrs: we will never forget you. To the fighters: we are with you until victory.',
       truth: 'Truth cannot remain hidden. Justice must be served.',
       promise: 'This is not a threat. This is a promise of transparency and accountability.',
       contact: 'For verification and contact: contact@genz212.me'
@@ -131,6 +147,10 @@ export default function CountdownAnnouncement() {
       point3: '• Strategische Verbreitung von Fehlinformationen',
       whatMeansTitle: 'Was das bedeutet',
       whatMeans: 'Diese Ankündigung dient als Warnung und Aufruf zur Transparenz. Die Verantwortlichen haben diese Plattform genutzt, um Agenden voranzutreiben, die dem Wohlergehen unserer Nation und ihrer Menschen direkt widersprechen. In 3 Tagen werden wir umfassende Dokumentationen, Kommunikationsaufzeichnungen und Beweise veröffentlichen, die das volle Ausmaß dieser koordinierten Operation offenlegen.',
+      solidarityTitle: 'Unsere Solidarität mit den Freiheitskämpfern',
+      solidarity1: 'Wir stehen stolz und mit tiefem Respekt an der Seite all jener, die in dieser Bewegung ungerecht verhaftet wurden, und bei den Familien der Märtyrer, die ihr Leben für Freiheit und Gerechtigkeit geopfert haben.',
+      solidarity2: 'Wir sind bei euch in all euren Kämpfen für Freiheit und Menschenwürde. Jede Bewegung für die Freiheit und Gerechtigkeit der Menschen ist unsere Bewegung. Wir werden weiterkämpfen, bis Freiheit und Gerechtigkeit für alle erreicht sind.',
+      solidarity3: 'An die Inhaftierten: Ihr seid nicht allein. An die Märtyrer: Wir werden euch nie vergessen. An die Kämpfer: Wir sind bei euch bis zum Sieg.',
       truth: 'Die Wahrheit kann nicht verborgen bleiben. Gerechtigkeit muss durchgesetzt werden.',
       promise: 'Dies ist keine Drohung. Dies ist ein Versprechen von Transparenz und Rechenschaftspflicht.',
       contact: 'Für Verifizierung und Kontakt: contact@genz212.me'
@@ -154,6 +174,10 @@ export default function CountdownAnnouncement() {
       point3: '• Strategische verspreiding van desinformatie',
       whatMeansTitle: 'Wat Dit Betekent',
       whatMeans: 'Deze aankondiging dient als een waarschuwing en een oproep tot transparantie. De verantwoordelijke individuen hebben dit platform gebruikt om agenda\'s te bevorderen die direct in tegenspraak zijn met het welzijn van onze natie en haar mensen. Over 3 dagen zullen we uitgebreide documentatie, communicatierecords en bewijs vrijgeven dat de volledige omvang van deze gecoördineerde operatie onthult.',
+      solidarityTitle: 'Onze Solidariteit met Vrijheidsstrijders',
+      solidarity1: 'We staan trots en met diep respect naast allen die onrechtvaardig zijn gearresteerd in deze beweging en bij de families van de martelaren die hun leven hebben opgeofferd voor vrijheid en gerechtigheid.',
+      solidarity2: 'We zijn met jullie in al jullie strijd voor vrijheid en menselijke waardigheid. Elke beweging voor de vrijheid en gerechtigheid van mensen is onze beweging. We zullen blijven strijden totdat vrijheid en gerechtigheid voor iedereen zijn bereikt.',
+      solidarity3: 'Aan de gedetineerden: jullie zijn niet alleen. Aan de martelaren: we zullen jullie nooit vergeten. Aan de strijders: we zijn met jullie tot de overwinning.',
       truth: 'De waarheid kan niet verborgen blijven. Gerechtigheid moet worden gediend.',
       promise: 'Dit is geen bedreiging. Dit is een belofte van transparantie en verantwoordelijkheid.',
       contact: 'Voor verificatie en contact: contact@genz212.me'
@@ -177,6 +201,10 @@ export default function CountdownAnnouncement() {
       point3: '• Disseminação estratégica de desinformação',
       whatMeansTitle: 'O Que Isto Significa',
       whatMeans: 'Este anúncio serve como um aviso e um apelo à transparência. Os indivíduos responsáveis usaram esta plataforma para promover agendas que contradizem diretamente o bem-estar da nossa nação e seu povo. Em 3 dias, divulgaremos documentação abrangente, registros de comunicações e evidências que revelam toda a extensão desta operação coordenada.',
+      solidarityTitle: 'Nossa Solidariedade com os Lutadores pela Liberdade',
+      solidarity1: 'Ficamos orgulhosamente e com profundo respeito ao lado de todos aqueles que foram injustamente presos neste movimento e com as famílias dos mártires que sacrificaram suas vidas pela liberdade e justiça.',
+      solidarity2: 'Estamos com vocês em todas as suas lutas pela liberdade e dignidade humana. Cada movimento pela liberdade e justiça das pessoas é nosso movimento. Continuaremos a luta até que a liberdade e a justiça sejam alcançadas para todos.',
+      solidarity3: 'Aos detidos: vocês não estão sozinhos. Aos mártires: nunca os esqueceremos. Aos lutadores: estamos com vocês até a vitória.',
       truth: 'A verdade não pode permanecer escondida. A justiça deve ser feita.',
       promise: 'Isto não é uma ameaça. Esta é uma promessa de transparência e responsabilidade.',
       contact: 'Para verificação e contato: contact@genz212.me'
@@ -233,21 +261,21 @@ export default function CountdownAnnouncement() {
 
       {/* Header */}
       <header className={`fixed top-0 left-0 right-0 z-50 ${cardBg} border-b backdrop-blur-xl shadow-lg`}>
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+        <div className="container mx-auto px-4 py-2 flex items-center justify-between">
           {/* Left Side - Controls */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             {/* Language Selector */}
             <div className="relative">
               <button
                 onClick={() => setShowLangMenu(!showLangMenu)}
-                className={`p-3 rounded-full ${cardBg} border backdrop-blur-lg shadow-lg hover:scale-110 transition-all duration-300 flex items-center gap-2`}
+                className={`p-2 rounded-lg ${cardBg} border backdrop-blur-lg hover:scale-105 transition-all duration-300 flex items-center gap-1.5`}
               >
-                <Globe className={`w-6 h-6 ${textPrimary}`} />
-                <span className="text-lg">{currentLang.flag}</span>
+                <Globe className={`w-5 h-5 ${textPrimary}`} />
+                <span className="text-base">{currentLang.flag}</span>
               </button>
               
               {showLangMenu && (
-                <div className={`absolute top-full mt-2 left-0 ${cardBg} border backdrop-blur-xl rounded-xl shadow-2xl overflow-hidden min-w-[200px]`}>
+                <div className={`absolute top-full mt-2 left-0 ${cardBg} border backdrop-blur-xl rounded-xl shadow-2xl overflow-hidden min-w-[180px]`}>
                   {languages.map((lang) => (
                     <button
                       key={lang.code}
@@ -255,12 +283,12 @@ export default function CountdownAnnouncement() {
                         setLocale(lang.code);
                         setShowLangMenu(false);
                       }}
-                      className={`w-full px-4 py-3 text-left hover:bg-white/5 transition-colors flex items-center gap-3 ${
+                      className={`w-full px-3 py-2 text-left hover:bg-white/5 transition-colors flex items-center gap-2 ${
                         locale === lang.code ? 'bg-white/10' : ''
                       }`}
                     >
-                      <span className="text-xl">{lang.flag}</span>
-                      <span className={textPrimary}>{lang.name}</span>
+                      <span className="text-base">{lang.flag}</span>
+                      <span className={`${textPrimary} text-sm`}>{lang.name}</span>
                     </button>
                   ))}
                 </div>
@@ -270,26 +298,26 @@ export default function CountdownAnnouncement() {
             {/* Dark/Light Mode Toggle */}
             <button
               onClick={() => setDarkMode(!darkMode)}
-              className={`p-3 rounded-full ${cardBg} border backdrop-blur-lg shadow-lg hover:scale-110 transition-all duration-300`}
+              className={`p-2 rounded-lg ${cardBg} border backdrop-blur-lg hover:scale-105 transition-all duration-300`}
             >
               {darkMode ? (
-                <Sun className="w-6 h-6 text-yellow-400" />
+                <Sun className="w-5 h-5 text-yellow-400" />
               ) : (
-                <Moon className="w-6 h-6 text-gray-700" />
+                <Moon className="w-5 h-5 text-gray-700" />
               )}
             </button>
           </div>
 
           {/* Right Side - Logo */}
-          <div className={`backdrop-blur-lg bg-white/10 p-3 rounded-xl border border-white/20 shadow-lg`}>
-            <div className="w-12 h-12 flex items-center justify-center overflow-hidden">
+          <div className={`backdrop-blur-lg bg-white/10 p-2 rounded-lg border border-white/20`}>
+            <div className="w-10 h-10 flex items-center justify-center overflow-hidden">
               <img src="/X.png" alt="Logo" className="w-full h-full object-contain" />
             </div>
           </div>
         </div>
       </header>
 
-      <div className="relative z-10 container mx-auto px-4 py-12 max-w-6xl mt-24">
+      <div className="relative z-10 container mx-auto px-4 py-8 max-w-6xl mt-16">
         {/* Alert Banner */}
         <div className={`${accentBg} border rounded-2xl p-6 mb-8 backdrop-blur-lg shadow-xl`}>
           <div className="flex items-center justify-center gap-3 mb-2">
@@ -370,6 +398,32 @@ export default function CountdownAnnouncement() {
             <p className={`${textSecondary} text-sm leading-relaxed`}>
               {t.whatMeans}
             </p>
+          </div>
+        </div>
+
+        {/* Solidarity Card */}
+        <div className={`${cardBg} border backdrop-blur-xl rounded-3xl p-8 mb-8 shadow-2xl`}>
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-8 h-8 flex items-center justify-center">
+              <span className="text-3xl">✊</span>
+            </div>
+            <h2 className={`text-2xl md:text-3xl font-bold ${textPrimary}`}>
+              {t.solidarityTitle}
+            </h2>
+          </div>
+          
+          <div className={`${accentBg} border rounded-xl p-6 space-y-4`}>
+            <p className={`${textSecondary} leading-relaxed font-medium`}>
+              {t.solidarity1}
+            </p>
+            <p className={`${textSecondary} leading-relaxed`}>
+              {t.solidarity2}
+            </p>
+            <div className={`${cardBg} border rounded-lg p-4 mt-4`}>
+              <p className={`${textPrimary} leading-relaxed font-semibold text-center`}>
+                {t.solidarity3}
+              </p>
+            </div>
           </div>
         </div>
 
