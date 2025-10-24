@@ -21,7 +21,7 @@ export default function CountdownAnnouncement() {
 
   const translations = {
     ar: {
-      alert: 'إعلان مجتمعي حرج',
+      alert: 'إعلان حركة حرج',
       subtitle: 'أدلة على التلاعب والسيطرة المنسقة',
       countdown: 'الكشف الكامل خلال',
       days: 'أيام',
@@ -29,16 +29,22 @@ export default function CountdownAnnouncement() {
       minutes: 'دقائق',
       seconds: 'ثواني',
       evidenceTitle: 'أدلة السيطرة',
-      description1: 'مجتمع GenZ212، الذي يضم أكثر من ',
+      description1: 'حركة GenZ212، التي تضم أكثر من ',
       members: '500,000+ عضو',
-      description2: ' عبر منصات متعددة، تم التحكم فيه والتلاعب به بشكل منهجي من قبل أفراد عملوا بنشاط ضد مصالح بلدنا وقيم المجتمع.',
-      description3: 'من خلال التحقيق الدقيق والتوثيق، كشفنا عن شبكة من الجهود المنسقة المصممة للتأثير والتلاعب وإعادة توجيه مناقشات وأعمال المجتمع لتحقيق مكاسب شخصية مع تقويض المصالح الوطنية.',
+      description2: ' عبر منصات متعددة، تم التحكم فيها والتلاعب بها بشكل منهجي من قبل أفراد عملوا بنشاط ضد مصالح بلدنا وقيم الحركة.',
+      description3: 'من خلال التحقيق الدقيق والتوثيق، كشفنا عن شبكة من الجهود المنسقة المصممة للتأثير والتلاعب وإعادة توجيه مناقشات وأعمال الحركة لتحقيق مكاسب شخصية مع تقويض المصالح الوطنية.',
       manipulationTitle: 'نمط التلاعب',
       point1: '• حملات رسائل منسقة',
       point2: '• قمع الأصوات المعارضة',
       point3: '• نشر معلومات مضللة استراتيجية',
+      adminTitle: 'الفوضى الإدارية - القضية الأكبر',
+      adminPoint1: '• عدد كبير من المسؤولين بدون مهام واضحة',
+      adminPoint2: '• تأخيرات شديدة في اتخاذ القرارات والاستجابة',
+      adminPoint3: '• كل مسؤول يبني "مملكته" الخاصة على الديسكورد',
+      adminPoint4: '• تجاهل اقتراحات الأعضاء بشكل متعمد',
+      adminPoint5: '• عدم التنسيق وصراعات السلطة بين المسؤولين',
       whatMeansTitle: 'ماذا يعني هذا',
-      whatMeans: 'هذا الإعلان بمثابة تحذير ودعوة للشفافية. الأفراد المسؤولون استخدموا هذه المنصة لتعزيز أجندات تتعارض بشكل مباشر مع رفاهية أمتنا وشعبها. خلال 3 أيام، سننشر وثائق شاملة وسجلات اتصالات وأدلة تكشف المدى الكامل لهذه العملية المنسقة.',
+      whatMeans: 'هذا الإعلان بمثابة تحذير ودعوة للشفافية. الأفراد المسؤولون استخدموا هذه المنصة لتعزيز أجندات تتعارض بشكل مباشر مع رفاهية أمتنا وشعبها. خلال 3 أيام، سننشر وثائق شاملة وسجلات اتصالات وأدلة تكشف المدى الكامل لهذه العملية المنسقة، بما في ذلك الفوضى الإدارية والتسلط والفساد الداخلي.',
       solidarityTitle: 'تضامننا مع المناضلين',
       solidarity1: 'نقف بكل فخر وإجلال مع كل من تم اعتقالهم ظلماً في هذه الحركة ومع عائلات الشهداء الذين ضحوا بحياتهم من أجل الحرية والعدالة.',
       solidarity2: 'نحن معكم في كل نضالاتكم من أجل الحرية والكرامة الإنسانية. كل حركة من أجل حرية الشعوب وعدالتها هي حركتنا. سنواصل النضال حتى تتحقق الحرية والعدالة للجميع.',
@@ -64,6 +70,12 @@ export default function CountdownAnnouncement() {
       point1: '• ⵜⵉⵎⵙⴰⵙⴰⵏⵉⵏ ⵏ ⵉⵣⵏⴰⵏ ⵉⵎⵙⴰⵙⴰⵏ',
       point2: '• ⴰⵙⴽⵙⵙⵎ ⵏ ⵉⵎⵙⵉⵡⵍⵏ ⵉⵏⴳⵍⵏ',
       point3: '• ⴰⵙⵏⴼⴰⵍ ⵏ ⵉⵙⴰⵍⵏ ⵉⵎⵣⴳⴰⵏ',
+      adminTitle: 'ⴰⵔⵡⴰⵢ ⵏ ⵓⵙⵇⵇⵉⵎ - ⵜⴰⵎⵙⴰⵍⵜ ⵜⴰⵎⵇⵔⴰⵏⵜ',
+      adminPoint1: '• ⴽⵉⴳⴰⵏ ⵏ ⵉⵎⵙⵇⵇⵉⵎⵏ ⴱⵍⴰ ⵜⵡⵓⵔⵉⵡⵉⵏ',
+      adminPoint2: '• ⴰⵙⵎⴰⵜⵜⵓ ⵉⵅⴰⵜⵔⵏ ⴷⴳ ⵉⵙⵏⴼⴰⵍⵏ',
+      adminPoint3: '• ⴽⵓ ⵎⵙⵇⵇⵉⵎ ⵉⵙⴽⴰⵔ ⵜⴰⴳⵍⴷⵉⵜ-ⵏⵏⵙ ⴷⴳ Discord',
+      adminPoint4: '• ⴰⵙⵙⵉⴳⵣⵣⵍ ⵏ ⵉⵙⵓⵎⴰⵔⵏ ⵏ ⵉⵎⴰⵙⵙⵏ',
+      adminPoint5: '• ⴰⵔⴰ ⵏ ⵓⵎⵢⴰⵡⴰⵙ ⴷ ⵉⵎⵏⴰⵖⵏ ⵏ ⵜⵏⵏⴰⴹⵜ',
       whatMeansTitle: 'ⵎⴰⴷ ⵉⵙⵙⴽⴰⵔ ⴰⵢⴰ',
       whatMeans: 'ⴰⵙⵙⵏⵎⴰⵍ-ⴰ ⵉⴳⴰ ⵢⴰⵏ ⵓⵙⵎⵓⵍⵙ ⴷ ⵢⴰⵜ ⵜⵙⴰⵡⴰⵍⵜ ⵉ ⵓⵙⵎⵢⴰⵏⴰ. ⴷⴳ 3 ⵏ ⵡⵓⵙⵙⴰⵏ, ⴰⴷ ⵏⴼⵙⵔ ⴰⵙⵏⵎⵓⵍ ⴰⵛⵛⴰⵕⴰⵏ ⴷ ⵉⵏⵎⵎⴰⵍⵏ.',
       solidarityTitle: 'ⴰⵎⵢⴰⵡⴰⵙ ⵏⵏⵖ ⴷ ⵉⵎⵏⴰⵖⵏ',
@@ -75,7 +87,7 @@ export default function CountdownAnnouncement() {
       contact: 'ⵉ ⵓⵙⵏⵜⵎ: contact@genz212.me'
     },
     fr: {
-      alert: 'ANNONCE COMMUNAUTAIRE CRITIQUE',
+      alert: 'ANNONCE MOUVEMENT CRITIQUE',
       subtitle: 'Preuves de manipulation et de contrôle coordonnés',
       countdown: 'Divulgation complète dans',
       days: 'Jours',
@@ -83,16 +95,22 @@ export default function CountdownAnnouncement() {
       minutes: 'Minutes',
       seconds: 'Secondes',
       evidenceTitle: 'Preuves de Contrôle',
-      description1: 'La communauté GenZ212, avec plus de ',
+      description1: 'Le mouvement GenZ212, avec plus de ',
       members: '500 000+ membres',
-      description2: ' sur plusieurs plateformes, a été systématiquement contrôlée et manipulée par des individus qui ont activement travaillé contre les intérêts de notre pays et les valeurs communautaires.',
-      description3: 'Grâce à une enquête minutieuse et à une documentation, nous avons découvert un réseau d\'efforts coordonnés conçus pour influencer, manipuler et rediriger les discussions et actions communautaires pour un gain personnel tout en sapant les intérêts nationaux.',
+      description2: ' sur plusieurs plateformes, a été systématiquement contrôlé et manipulé par des individus qui ont activement travaillé contre les intérêts de notre pays et les valeurs du mouvement.',
+      description3: 'Grâce à une enquête minutieuse et à une documentation, nous avons découvert un réseau d\'efforts coordonnés conçus pour influencer, manipuler et rediriger les discussions et actions du mouvement pour un gain personnel tout en sapant les intérêts nationaux.',
       manipulationTitle: 'Schéma de Manipulation',
       point1: '• Campagnes de messages coordonnées',
       point2: '• Suppression des voix dissidentes',
       point3: '• Diffusion stratégique de désinformation',
+      adminTitle: 'Chaos Administratif - Le Plus Grand Problème',
+      adminPoint1: '• Trop d\'administrateurs sans tâches claires',
+      adminPoint2: '• Retards importants dans les décisions et réponses',
+      adminPoint3: '• Chaque admin construit son propre "royaume" sur Discord',
+      adminPoint4: '• Ignorance délibérée des suggestions des membres',
+      adminPoint5: '• Manque de coordination et luttes de pouvoir entre admins',
       whatMeansTitle: 'Ce que cela signifie',
-      whatMeans: 'Cette annonce sert d\'avertissement et d\'appel à la transparence. Les individus responsables ont utilisé cette plateforme pour promouvoir des agendas qui contredisent directement le bien-être de notre nation et de son peuple. Dans 3 jours, nous publierons une documentation complète, des enregistrements de communications et des preuves révélant toute l\'étendue de cette opération coordonnée.',
+      whatMeans: 'Cette annonce sert d\'avertissement et d\'appel à la transparence. Les individus responsables ont utilisé cette plateforme pour promouvoir des agendas qui contredisent directement le bien-être de notre nation et de son peuple. Dans 3 jours, nous publierons une documentation complète, des enregistrements de communications et des preuves révélant toute l\'étendue de cette opération coordonnée, y compris le chaos administratif, l\'abus de pouvoir et la corruption interne.',
       solidarityTitle: 'Notre Solidarité avec les Combattants',
       solidarity1: 'Nous nous tenons fièrement aux côtés de tous ceux qui ont été injustement arrêtés dans ce mouvement et avec les familles des martyrs qui ont sacrifié leur vie pour la liberté et la justice.',
       solidarity2: 'Nous sommes avec vous dans toutes vos luttes pour la liberté et la dignité humaine. Chaque mouvement pour la liberté et la justice des peuples est notre mouvement. Nous continuerons à lutter jusqu\'à ce que la liberté et la justice soient obtenues pour tous.',
@@ -102,7 +120,7 @@ export default function CountdownAnnouncement() {
       contact: 'Pour vérification et contact : contact@genz212.me'
     },
     en: {
-      alert: 'CRITICAL COMMUNITY ANNOUNCEMENT',
+      alert: 'CRITICAL MOVEMENT ANNOUNCEMENT',
       subtitle: 'Evidence of coordinated manipulation and control',
       countdown: 'Full Disclosure In',
       days: 'Days',
@@ -110,16 +128,22 @@ export default function CountdownAnnouncement() {
       minutes: 'Minutes',
       seconds: 'Seconds',
       evidenceTitle: 'Evidence of Control',
-      description1: 'The GenZ212 community, with over ',
+      description1: 'The GenZ212 movement, with over ',
       members: '500,000+ members',
-      description2: ' across multiple platforms, has been systematically controlled and manipulated by individuals who have actively worked against the interests of our country and community values.',
-      description3: 'Through careful investigation and documentation, we have uncovered a network of coordinated efforts designed to influence, manipulate, and redirect community discussions and actions for personal gain while undermining national interests.',
+      description2: ' across multiple platforms, has been systematically controlled and manipulated by individuals who have actively worked against the interests of our country and movement values.',
+      description3: 'Through careful investigation and documentation, we have uncovered a network of coordinated efforts designed to influence, manipulate, and redirect movement discussions and actions for personal gain while undermining national interests.',
       manipulationTitle: 'Pattern of Manipulation',
       point1: '• Coordinated messaging campaigns',
       point2: '• Suppression of dissenting voices',
       point3: '• Strategic misinformation spread',
+      adminTitle: 'Administrative Chaos - The Biggest Issue',
+      adminPoint1: '• Too many admins with no clear tasks or responsibilities',
+      adminPoint2: '• Severe delays in decision-making and response times',
+      adminPoint3: '• Each admin building their own "kingdom" on Discord',
+      adminPoint4: '• Deliberate ignoring of member suggestions and feedback',
+      adminPoint5: '• Lack of coordination and power struggles between admins',
       whatMeansTitle: 'What This Means',
-      whatMeans: 'This announcement serves as a warning and a call for transparency. The individuals responsible have used this platform to further agendas that directly contradict the wellbeing of our nation and its people. In 3 days, we will release comprehensive documentation, communications records, and evidence that reveals the full extent of this coordinated operation.',
+      whatMeans: 'This announcement serves as a warning and a call for transparency. The individuals responsible have used this platform to further agendas that directly contradict the wellbeing of our nation and its people. In 3 days, we will release comprehensive documentation, communications records, and evidence that reveals the full extent of this coordinated operation, including administrative chaos, power abuse, and internal corruption.',
       solidarityTitle: 'Our Solidarity with Freedom Fighters',
       solidarity1: 'We stand proudly and with deep respect alongside all those who have been unjustly arrested in this movement and with the families of the martyrs who sacrificed their lives for freedom and justice.',
       solidarity2: 'We are with you in all your struggles for freedom and human dignity. Every movement for the freedom and justice of people is our movement. We will continue the fight until freedom and justice are achieved for all.',
@@ -129,7 +153,7 @@ export default function CountdownAnnouncement() {
       contact: 'For verification and contact: contact@genz212.me'
     },
     de: {
-      alert: 'KRITISCHE GEMEINSCHAFTSANKÜNDIGUNG',
+      alert: 'KRITISCHE BEWEGUNGSANKÜNDIGUNG',
       subtitle: 'Beweise für koordinierte Manipulation und Kontrolle',
       countdown: 'Vollständige Offenlegung in',
       days: 'Tage',
@@ -137,16 +161,22 @@ export default function CountdownAnnouncement() {
       minutes: 'Minuten',
       seconds: 'Sekunden',
       evidenceTitle: 'Beweise der Kontrolle',
-      description1: 'Die GenZ212-Community mit über ',
+      description1: 'Die GenZ212-Bewegung mit über ',
       members: '500.000+ Mitgliedern',
-      description2: ' auf mehreren Plattformen wurde systematisch von Personen kontrolliert und manipuliert, die aktiv gegen die Interessen unseres Landes und die Gemeinschaftswerte gearbeitet haben.',
-      description3: 'Durch sorgfältige Untersuchungen und Dokumentationen haben wir ein Netzwerk koordinierter Bemühungen aufgedeckt, die darauf abzielen, Community-Diskussionen und -Aktionen für persönlichen Gewinn zu beeinflussen, zu manipulieren und umzuleiten, während nationale Interessen untergraben werden.',
+      description2: ' auf mehreren Plattformen wurde systematisch von Personen kontrolliert und manipuliert, die aktiv gegen die Interessen unseres Landes und die Bewegungswerte gearbeitet haben.',
+      description3: 'Durch sorgfältige Untersuchungen und Dokumentationen haben wir ein Netzwerk koordinierter Bemühungen aufgedeckt, die darauf abzielen, Bewegungsdiskussionen und -aktionen für persönlichen Gewinn zu beeinflussen, zu manipulieren und umzuleiten, während nationale Interessen untergraben werden.',
       manipulationTitle: 'Manipulationsmuster',
       point1: '• Koordinierte Messaging-Kampagnen',
       point2: '• Unterdrückung abweichender Stimmen',
       point3: '• Strategische Verbreitung von Fehlinformationen',
+      adminTitle: 'Administratives Chaos - Das größte Problem',
+      adminPoint1: '• Zu viele Admins ohne klare Aufgaben',
+      adminPoint2: '• Schwere Verzögerungen bei Entscheidungen',
+      adminPoint3: '• Jeder Admin baut sein eigenes "Königreich" auf Discord',
+      adminPoint4: '• Bewusstes Ignorieren von Mitgliedervorschlägen',
+      adminPoint5: '• Mangelnde Koordination und Machtkämpfe zwischen Admins',
       whatMeansTitle: 'Was das bedeutet',
-      whatMeans: 'Diese Ankündigung dient als Warnung und Aufruf zur Transparenz. Die Verantwortlichen haben diese Plattform genutzt, um Agenden voranzutreiben, die dem Wohlergehen unserer Nation und ihrer Menschen direkt widersprechen. In 3 Tagen werden wir umfassende Dokumentationen, Kommunikationsaufzeichnungen und Beweise veröffentlichen, die das volle Ausmaß dieser koordinierten Operation offenlegen.',
+      whatMeans: 'Diese Ankündigung dient als Warnung und Aufruf zur Transparenz. Die Verantwortlichen haben diese Plattform genutzt, um Agenden voranzutreiben, die dem Wohlergehen unserer Nation und ihrer Menschen direkt widersprechen. In 3 Tagen werden wir umfassende Dokumentationen, Kommunikationsaufzeichnungen und Beweise veröffentlichen, die das volle Ausmaß dieser koordinierten Operation offenlegen, einschließlich administrativem Chaos, Machtmissbrauch und interner Korruption.',
       solidarityTitle: 'Unsere Solidarität mit den Freiheitskämpfern',
       solidarity1: 'Wir stehen stolz und mit tiefem Respekt an der Seite all jener, die in dieser Bewegung ungerecht verhaftet wurden, und bei den Familien der Märtyrer, die ihr Leben für Freiheit und Gerechtigkeit geopfert haben.',
       solidarity2: 'Wir sind bei euch in all euren Kämpfen für Freiheit und Menschenwürde. Jede Bewegung für die Freiheit und Gerechtigkeit der Menschen ist unsere Bewegung. Wir werden weiterkämpfen, bis Freiheit und Gerechtigkeit für alle erreicht sind.',
@@ -156,7 +186,7 @@ export default function CountdownAnnouncement() {
       contact: 'Für Verifizierung und Kontakt: contact@genz212.me'
     },
     nl: {
-      alert: 'KRITIEKE GEMEENSCHAPSAANKONDIGING',
+      alert: 'KRITIEKE BEWEGINGSAANKONDIGING',
       subtitle: 'Bewijs van gecoördineerde manipulatie en controle',
       countdown: 'Volledige Onthulling Over',
       days: 'Dagen',
@@ -164,16 +194,22 @@ export default function CountdownAnnouncement() {
       minutes: 'Minuten',
       seconds: 'Seconden',
       evidenceTitle: 'Bewijs van Controle',
-      description1: 'De GenZ212-gemeenschap, met meer dan ',
+      description1: 'De GenZ212-beweging, met meer dan ',
       members: '500.000+ leden',
-      description2: ' op meerdere platforms, is systematisch gecontroleerd en gemanipuleerd door individuen die actief hebben gewerkt tegen de belangen van ons land en gemeenschapswaarden.',
-      description3: 'Door zorgvuldig onderzoek en documentatie hebben we een netwerk van gecoördineerde inspanningen blootgelegd die zijn ontworpen om gemeenschapsdiscussies en -acties te beïnvloeden, manipuleren en omleiden voor persoonlijk gewin, terwijl nationale belangen worden ondermijnd.',
+      description2: ' op meerdere platforms, is systematisch gecontroleerd en gemanipuleerd door individuen die actief hebben gewerkt tegen de belangen van ons land en bewegingswaarden.',
+      description3: 'Door zorgvuldig onderzoek en documentatie hebben we een netwerk van gecoördineerde inspanningen blootgelegd die zijn ontworpen om bewegingsdiscussies en -acties te beïnvloeden, manipuleren en omleiden voor persoonlijk gewin, terwijl nationale belangen worden ondermijnd.',
       manipulationTitle: 'Patroon van Manipulatie',
       point1: '• Gecoördineerde berichtencampagnes',
       point2: '• Onderdrukking van dissidente stemmen',
       point3: '• Strategische verspreiding van desinformatie',
+      adminTitle: 'Administratieve Chaos - Het Grootste Probleem',
+      adminPoint1: '• Te veel admins zonder duidelijke taken',
+      adminPoint2: '• Ernstige vertragingen in besluitvorming',
+      adminPoint3: '• Elke admin bouwt zijn eigen "koninkrijk" op Discord',
+      adminPoint4: '• Opzettelijk negeren van ledensugesties',
+      adminPoint5: '• Gebrek aan coördinatie en machtsstrijd tussen admins',
       whatMeansTitle: 'Wat Dit Betekent',
-      whatMeans: 'Deze aankondiging dient als een waarschuwing en een oproep tot transparantie. De verantwoordelijke individuen hebben dit platform gebruikt om agenda\'s te bevorderen die direct in tegenspraak zijn met het welzijn van onze natie en haar mensen. Over 3 dagen zullen we uitgebreide documentatie, communicatierecords en bewijs vrijgeven dat de volledige omvang van deze gecoördineerde operatie onthult.',
+      whatMeans: 'Deze aankondiging dient als een waarschuwing en een oproep tot transparantie. De verantwoordelijke individuen hebben dit platform gebruikt om agenda\'s te bevorderen die direct in tegenspraak zijn met het welzijn van onze natie en haar mensen. Over 3 dagen zullen we uitgebreide documentatie, communicatierecords en bewijs vrijgeven dat de volledige omvang van deze gecoördineerde operatie onthult, inclusief administratieve chaos, machtsmisbruik en interne corruptie.',
       solidarityTitle: 'Onze Solidariteit met Vrijheidsstrijders',
       solidarity1: 'We staan trots en met diep respect naast allen die onrechtvaardig zijn gearresteerd in deze beweging en bij de families van de martelaren die hun leven hebben opgeofferd voor vrijheid en gerechtigheid.',
       solidarity2: 'We zijn met jullie in al jullie strijd voor vrijheid en menselijke waardigheid. Elke beweging voor de vrijheid en gerechtigheid van mensen is onze beweging. We zullen blijven strijden totdat vrijheid en gerechtigheid voor iedereen zijn bereikt.',
@@ -183,7 +219,7 @@ export default function CountdownAnnouncement() {
       contact: 'Voor verificatie en contact: contact@genz212.me'
     },
     pt: {
-      alert: 'ANÚNCIO COMUNITÁRIO CRÍTICO',
+      alert: 'ANÚNCIO MOVIMENTO CRÍTICO',
       subtitle: 'Evidência de manipulação e controle coordenados',
       countdown: 'Divulgação Completa Em',
       days: 'Dias',
@@ -191,16 +227,22 @@ export default function CountdownAnnouncement() {
       minutes: 'Minutos',
       seconds: 'Segundos',
       evidenceTitle: 'Evidência de Controle',
-      description1: 'A comunidade GenZ212, com mais de ',
+      description1: 'O movimento GenZ212, com mais de ',
       members: '500.000+ membros',
-      description2: ' em várias plataformas, foi sistematicamente controlada e manipulada por indivíduos que trabalharam ativamente contra os interesses do nosso país e valores comunitários.',
-      description3: 'Através de investigação cuidadosa e documentação, descobrimos uma rede de esforços coordenados projetados para influenciar, manipular e redirecionar discussões e ações comunitárias para ganho pessoal, enquanto minam interesses nacionais.',
+      description2: ' em várias plataformas, foi sistematicamente controlado e manipulado por indivíduos que trabalharam ativamente contra os interesses do nosso país e valores do movimento.',
+      description3: 'Através de investigação cuidadosa e documentação, descobrimos uma rede de esforços coordenados projetados para influenciar, manipular e redirecionar discussões e ações do movimento para ganho pessoal, enquanto minam interesses nacionais.',
       manipulationTitle: 'Padrão de Manipulação',
       point1: '• Campanhas de mensagens coordenadas',
       point2: '• Supressão de vozes dissidentes',
       point3: '• Disseminação estratégica de desinformação',
+      adminTitle: 'Caos Administrativo - O Maior Problema',
+      adminPoint1: '• Muitos administradores sem tarefas claras',
+      adminPoint2: '• Atrasos graves na tomada de decisões',
+      adminPoint3: '• Cada admin construindo seu próprio "reino" no Discord',
+      adminPoint4: '• Ignorar deliberado de sugestões dos membros',
+      adminPoint5: '• Falta de coordenação e lutas de poder entre admins',
       whatMeansTitle: 'O Que Isto Significa',
-      whatMeans: 'Este anúncio serve como um aviso e um apelo à transparência. Os indivíduos responsáveis usaram esta plataforma para promover agendas que contradizem diretamente o bem-estar da nossa nação e seu povo. Em 3 dias, divulgaremos documentação abrangente, registros de comunicações e evidências que revelam toda a extensão desta operação coordenada.',
+      whatMeans: 'Este anúncio serve como um aviso e um apelo à transparência. Os indivíduos responsáveis usaram esta plataforma para promover agendas que contradizem diretamente o bem-estar da nossa nação e seu povo. Em 3 dias, divulgaremos documentação abrangente, registros de comunicações e evidências que revelam toda a extensão desta operação coordenada, incluindo caos administrativo, abuso de poder e corrupção interna.',
       solidarityTitle: 'Nossa Solidariedade com os Lutadores pela Liberdade',
       solidarity1: 'Ficamos orgulhosamente e com profundo respeito ao lado de todos aqueles que foram injustamente presos neste movimento e com as famílias dos mártires que sacrificaram suas vidas pela liberdade e justiça.',
       solidarity2: 'Estamos com vocês em todas as suas lutas pela liberdade e dignidade humana. Cada movimento pela liberdade e justiça das pessoas é nosso movimento. Continuaremos a luta até que a liberdade e a justiça sejam alcançadas para todos.',
@@ -374,7 +416,7 @@ export default function CountdownAnnouncement() {
           </div>
 
           {/* Evidence Points */}
-          <div className="mb-6">
+          <div className="mb-6 space-y-4">
             <div className={`${cardBg} border rounded-xl p-5`}>
               <div className="flex items-start gap-3">
                 <MessageSquare className={`w-6 h-6 ${accentText} mt-1 flex-shrink-0`} />
@@ -384,6 +426,23 @@ export default function CountdownAnnouncement() {
                     <li>{t.point1}</li>
                     <li>{t.point2}</li>
                     <li>{t.point3}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Admin Chaos Card - The Biggest Issue */}
+            <div className={`${accentBg} border-2 rounded-xl p-5 shadow-lg`}>
+              <div className="flex items-start gap-3">
+                <AlertTriangle className={`w-6 h-6 ${accentText} mt-1 flex-shrink-0 animate-pulse`} />
+                <div className="flex-1">
+                  <h3 className={`font-bold ${accentText} mb-3 text-lg`}>{t.adminTitle}</h3>
+                  <ul className={`${textSecondary} text-sm space-y-2`}>
+                    <li>{t.adminPoint1}</li>
+                    <li>{t.adminPoint2}</li>
+                    <li>{t.adminPoint3}</li>
+                    <li>{t.adminPoint4}</li>
+                    <li>{t.adminPoint5}</li>
                   </ul>
                 </div>
               </div>
