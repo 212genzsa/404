@@ -2,7 +2,7 @@
 
 import { Moon, Sun, AlertTriangle, Shield, MessageSquare, Globe } from 'lucide-react';
 import { useState, useEffect } from 'react';
-
+ 
 export default function CountdownAnnouncement() {
   const [darkMode, setDarkMode] = useState(true);
   const [locale, setLocale] = useState('ar');
