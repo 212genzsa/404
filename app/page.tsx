@@ -2,7 +2,7 @@
 
 import { Moon, Sun, AlertTriangle, Shield, MessageSquare, Globe } from 'lucide-react';
 import { useState, useEffect } from 'react';
- 
+
 export default function CountdownAnnouncement() {
   const [darkMode, setDarkMode] = useState(true);
   const [locale, setLocale] = useState('ar');
@@ -184,7 +184,7 @@ export default function CountdownAnnouncement() {
   };
 
   const currentLang = languages.find(l => l.code === locale) || languages[0];
-  const t = translations[locale];
+  const t = translations[locale as keyof typeof translations];
 
   // Calculate time remaining until October 17, 2025 at 1:00 AM
   useEffect(() => {
