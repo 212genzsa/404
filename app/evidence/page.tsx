@@ -1,3 +1,5 @@
+'use client';
+
 import { Moon, Sun, Globe, Lock, FileText, Image, Video, Users, Shield } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
