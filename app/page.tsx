@@ -265,8 +265,7 @@ export default function CountdownAnnouncement() {
       evidenceBtn: 'Ver Evidências', // for 'pt'
     }
   };
-
-  const currentLang = languages.find(l => l.code === locale) || languages[0];
+const currentLang = languages.find(l => l.code === locale) || languages[0];
   const t = translations[locale as keyof typeof translations];
 
   // Calculate time remaining until Sunday, October 26, 2025 at 11:59 PM (user's local time)
@@ -411,18 +410,17 @@ export default function CountdownAnnouncement() {
         </div>
 
         {/* Evidence Button */}
-          <div className="flex justify-center mt-6">
-  
-              href="/evidence"
-              className={`group ${accentBg} border-2 ${darkMode ? 'border-red-500/50' : 'border-red-400'} backdrop-blur-xl rounded-xl px-8 py-4 shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-3`}
-            >
-              <Shield className={`w-6 h-6 ${accentText} group-hover:animate-pulse`} />
-              <span className={`text-lg font-bold ${accentText}`}>
-                {t.evidenceBtn}
-              </span>
-              <ExternalLink className={`w-5 h-5 ${accentText}`} />
-            </a>
-          </div>
+        <div className="flex justify-center mb-8">
+          <a
+            href="/evidence"
+            className={`group ${accentBg} border-2 ${darkMode ? 'border-red-500/50' : 'border-red-400'} backdrop-blur-xl rounded-xl px-8 py-4 shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-3`}
+          >
+            <Shield className={`w-6 h-6 ${accentText} group-hover:animate-pulse`} />
+            <span className={`text-lg font-bold ${accentText}`}>
+              {t.evidenceBtn}
+            </span>
+          </a>
+        </div>
 
         {/* Evidence Section */}
         <div className={`${cardBg} border backdrop-blur-xl rounded-3xl p-8 mb-8 shadow-2xl`}>
@@ -458,7 +456,7 @@ export default function CountdownAnnouncement() {
               </div>
             </div>
 
-            {/* Admin Chaos Card - The Biggest Issue */}
+            {/* Admin Chaos Card */}
             <div className={`${accentBg} border-2 rounded-xl p-5 shadow-lg`}>
               <div className="flex items-start gap-3">
                 <AlertTriangle className={`w-6 h-6 ${accentText} mt-1 flex-shrink-0 animate-pulse`} />
