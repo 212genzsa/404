@@ -1,6 +1,6 @@
 'use client';
 
-import { Moon, Sun, AlertTriangle, Shield, MessageSquare, Globe } from 'lucide-react';
+import { Moon, Sun, AlertTriangle, Shield, MessageSquare, Globe, ExternalLink } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 export default function CountdownAnnouncement() {
