@@ -150,91 +150,14 @@ export default function EvidencePage() {
 
   return (
     <div dir={currentLang.dir} className={`min-h-screen ${bgClass} transition-colors duration-500 relative overflow-hidden`}>
-      {/* CLEAN BACKGROUND - Galaxy Theme */}
-      <div className="fixed inset-0 overflow-hidden pointer-events-none bg-black">
-        {/* Red Light */}
-        <div className="absolute top-1/4 left-1/4 w-[300px] h-[300px] rounded-full bg-red-500/30 blur-3xl animate-float-1"></div>
-        
-        {/* Blue Light */}
-        <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] rounded-full bg-blue-500/30 blur-3xl animate-float-2"></div>
-
-        {/* King Chess Character with Beams */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-          {/* Beams Popping from Center */}
-          <div className="beams-container">
-            {[...Array(20)].map((_, i) => {
-              const angle = (360 / 20) * i;
-              return (
-                <div
-                  key={`beam-${i}`}
-                  className="beam"
-                  style={{
-                    transform: `rotate(${angle}deg)`,
-                    animationDelay: `${i * 0.1}s`
-                  }}
-                ></div>
-              );
-            })}
-          </div>
-
-          {/* King Chess Piece */}
-          <div className="king-container">
-            <svg width="400" height="400" viewBox="0 0 400 400" className="king-svg">
-              <defs>
-                <linearGradient id="king-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                  <stop offset="0%" stopColor="#fbbf24" />
-                  <stop offset="50%" stopColor="#f59e0b" />
-                  <stop offset="100%" stopColor="#d97706" />
-                </linearGradient>
-                <filter id="king-glow">
-                  <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
-                  <feMerge>
-                    <feMergeNode in="coloredBlur"/>
-                    <feMergeNode in="SourceGraphic"/>
-                  </feMerge>
-                </filter>
-              </defs>
-              
-              {/* Base */}
-              <ellipse cx="200" cy="340" rx="80" ry="20" fill="url(#king-gradient)" filter="url(#king-glow)" opacity="0.9"/>
-              
-              {/* Bottom platform */}
-              <path d="M 140 340 L 130 320 L 270 320 L 260 340 Z" fill="url(#king-gradient)" filter="url(#king-glow)"/>
-              
-              {/* Lower body */}
-              <path d="M 130 320 L 140 280 L 260 280 L 270 320 Z" fill="url(#king-gradient)" filter="url(#king-glow)"/>
-              
-              {/* Middle section */}
-              <path d="M 140 280 L 150 220 L 250 220 L 260 280 Z" fill="url(#king-gradient)" filter="url(#king-glow)"/>
-              
-              {/* Upper body */}
-              <path d="M 150 220 L 160 180 L 240 180 L 250 220 Z" fill="url(#king-gradient)" filter="url(#king-glow)"/>
-              
-              {/* Neck */}
-              <rect x="170" y="160" width="60" height="20" rx="5" fill="url(#king-gradient)" filter="url(#king-glow)"/>
-              
-              {/* Head sphere */}
-              <circle cx="200" cy="130" r="35" fill="url(#king-gradient)" filter="url(#king-glow)"/>
-              
-              {/* Crown base */}
-              <ellipse cx="200" cy="100" rx="45" ry="12" fill="url(#king-gradient)" filter="url(#king-glow)"/>
-              
-              {/* Crown points */}
-              <path d="M 155 100 L 160 70 L 170 90 L 180 65 L 190 90 L 200 60 L 210 90 L 220 65 L 230 90 L 240 70 L 245 100 Z" 
-                    fill="url(#king-gradient)" filter="url(#king-glow)"/>
-              
-              {/* Cross on top */}
-              <rect x="195" y="40" width="10" height="25" rx="2" fill="url(#king-gradient)" filter="url(#king-glow)"/>
-              <rect x="187" y="48" width="26" height="10" rx="2" fill="url(#king-gradient)" filter="url(#king-glow)"/>
-              
-              {/* Decorative gems */}
-              <circle cx="200" cy="130" r="8" fill="#ef4444" opacity="0.8"/>
-              <circle cx="175" cy="85" r="5" fill="#3b82f6" opacity="0.8"/>
-              <circle cx="225" cy="85" r="5" fill="#3b82f6" opacity="0.8"/>
-              <circle cx="200" cy="75" r="6" fill="#8b5cf6" opacity="0.8"/>
-            </svg>
-          </div>
-        </div>
+      {/* Background Image with Glassmorphism */}
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: 'url(/background.webp)' }}
+        ></div>
+        {/* Overlay for better contrast and glassmorphism effect */}
+        <div className={`absolute inset-0 ${darkMode ? 'bg-black/60' : 'bg-white/40'}`}></div>
       </div>
 
       {/* Header */}
@@ -366,106 +289,6 @@ export default function EvidencePage() {
           </p>
         </div>
       </div>
-
-      <style jsx>{`
-        @keyframes float-1 {
-          0%, 100% {
-            transform: translate(0, 0) scale(1);
-            opacity: 0.3;
-          }
-          50% {
-            transform: translate(100px, -50px) scale(1.2);
-            opacity: 0.6;
-          }
-        }
-        @keyframes float-2 {
-          0%, 100% {
-            transform: translate(0, 0) scale(1);
-            opacity: 0.3;
-          }
-          50% {
-            transform: translate(-80px, 60px) scale(1.3);
-            opacity: 0.6;
-          }
-        }
-        @keyframes beam-pop {
-          0% {
-            height: 0;
-            opacity: 0;
-          }
-          50% {
-            height: 800px;
-            opacity: 1;
-          }
-          100% {
-            height: 0;
-            opacity: 0;
-          }
-        }
-        @keyframes king-float {
-          0%, 100% {
-            transform: translateY(0) scale(1);
-          }
-          50% {
-            transform: translateY(-20px) scale(1.05);
-          }
-        }
-        
-        @keyframes king-rotate {
-          from {
-            transform: rotate(-5deg);
-          }
-          to {
-            transform: rotate(5deg);
-          }
-        }
-        
-        .beams-container {
-          position: absolute;
-          width: 600px;
-          height: 600px;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          z-index: 1;
-        }
-        
-        .beam {
-          position: absolute;
-          width: 3px;
-          height: 0;
-          background: linear-gradient(to top, transparent, #fbbf24, #f59e0b, #d97706);
-          top: 50%;
-          left: 50%;
-          transform-origin: bottom center;
-          animation: beam-pop 2s ease-out infinite;
-          box-shadow: 0 0 15px #fbbf24, 0 0 25px #f59e0b;
-          filter: blur(1px);
-        }
-        
-        .king-container {
-          position: relative;
-          z-index: 2;
-          animation: king-float 3s ease-in-out infinite;
-        }
-        
-        .king-svg {
-          filter: drop-shadow(0 0 30px rgba(251, 191, 36, 0.6));
-          animation: king-rotate 4s ease-in-out infinite alternate;
-        }
-        
-        .animate-float-1 {
-          animation: float-1 8s ease-in-out infinite;
-        }
-        
-        .animate-float-2 {
-          animation: float-2 10s ease-in-out infinite;
-        }
-        
-        .bg-gradient-radial {
-          background: radial-gradient(circle, var(--tw-gradient-stops));
-        }
-      `}</style>
     </div>
   );
 }
