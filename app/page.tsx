@@ -51,7 +51,9 @@ export default function CountdownAnnouncement() {
       solidarity3: 'للمعتقلين: أنتم لستم وحدكم. للشهداء: لن ننساكم أبداً. للمناضلين: نحن معكم حتى النصر.',
       truth: 'الحقيقة لا يمكن أن تبقى مخفية. العدالة يجب أن تتحقق.',
       promise: 'هذا ليس تهديداً. هذا وعد بالشفافية والمساءلة.',
-      contact: 'للتحقق والاتصال: contact@genz212.me'
+      contact: 'للتحقق والاتصال: contact@genz212.me',
+      evidenceBtn: 'عرض الأدلة', // for 'ar'
+
     },
     amz: {
       alert: 'ⴰⵙⵙⵏⵎⴰⵍ ⵏ ⵜⵎⵙⵎⵓⵏⵜ ⵉⵙⵙⴰⵏⴰⵏ',
@@ -84,7 +86,9 @@ export default function CountdownAnnouncement() {
       solidarity3: 'ⵉ ⵉⵎⵙⵓⵔⴰⵣ: ⵓⵔ ⵜⴻⵍⵍⵉⵎ ⵉⵎⴰⵡⵍⴰⵏ. ⵉ ⵉⵎⵏⵖⴰⵏ: ⴰⴷ ⵏⴽⵎⵎⵍ ⴰⵔ ⵜⵓⵖⵍⴰⴱⵜ.',
       truth: 'ⵜⵉⴷⵜ ⵓⵔ ⵜⵣⴹⴰⵕ ⴰⴷ ⵜⵇⵇⵉⵎ ⵜⴼⴼⵔⵜ. ⵍⵃⴰⵇ ⵉⵅⵚⵚⴰ ⴰⴷ ⵉⵍⵉ.',
       promise: 'ⴰⵢⴰ ⵓⵔ ⴳⵉⵙ ⴰⵙⵎⴰⵍⵍⵙ. ⴰⵢⴰ ⴷ ⴰⵡⴰⴷ ⵏ ⵓⵙⵎⵢⴰⵏⴰ.',
-      contact: 'ⵉ ⵓⵙⵏⵜⵎ: contact@genz212.me'
+      contact: 'ⵉ ⵓⵙⵏⵜⵎ: contact@genz212.me',
+      evidenceBtn: 'ⵙⴽⵏ ⵉⵏⵎⵎⴰⵍⵏ', // for 'amz'
+
     },
     fr: {
       alert: 'ANNONCE MOUVEMENT CRITIQUE',
@@ -117,7 +121,9 @@ export default function CountdownAnnouncement() {
       solidarity3: 'Aux détenus : vous n\'êtes pas seuls. Aux martyrs : nous ne vous oublierons jamais. Aux combattants : nous sommes avec vous jusqu\'à la victoire.',
       truth: 'La vérité ne peut rester cachée. La justice doit être rendue.',
       promise: 'Ce n\'est pas une menace. C\'est une promesse de transparence et de responsabilité.',
-      contact: 'Pour vérification et contact : contact@genz212.me'
+      contact: 'Pour vérification et contact : contact@genz212.me',
+      evidenceBtn: 'Voir les Preuves', // for 'fr'
+
     },
     en: {
       alert: 'CRITICAL MOVEMENT ANNOUNCEMENT',
@@ -150,7 +156,9 @@ export default function CountdownAnnouncement() {
       solidarity3: 'To the detained: you are not alone. To the martyrs: we will never forget you. To the fighters: we are with you until victory.',
       truth: 'Truth cannot remain hidden. Justice must be served.',
       promise: 'This is not a threat. This is a promise of transparency and accountability.',
-      contact: 'For verification and contact: contact@genz212.me'
+      contact: 'For verification and contact: contact@genz212.me',
+      evidenceBtn: 'View Evidence', // for 'en'
+
     },
     de: {
       alert: 'KRITISCHE BEWEGUNGSANKÜNDIGUNG',
@@ -183,7 +191,9 @@ export default function CountdownAnnouncement() {
       solidarity3: 'An die Inhaftierten: Ihr seid nicht allein. An die Märtyrer: Wir werden euch nie vergessen. An die Kämpfer: Wir sind bei euch bis zum Sieg.',
       truth: 'Die Wahrheit kann nicht verborgen bleiben. Gerechtigkeit muss durchgesetzt werden.',
       promise: 'Dies ist keine Drohung. Dies ist ein Versprechen von Transparenz und Rechenschaftspflicht.',
-      contact: 'Für Verifizierung und Kontakt: contact@genz212.me'
+      contact: 'Für Verifizierung und Kontakt: contact@genz212.me',
+      evidenceBtn: 'Beweise ansehen', // for 'de'
+
     },
     nl: {
       alert: 'KRITIEKE BEWEGINGSAANKONDIGING',
@@ -216,7 +226,9 @@ export default function CountdownAnnouncement() {
       solidarity3: 'Aan de gedetineerden: jullie zijn niet alleen. Aan de martelaren: we zullen jullie nooit vergeten. Aan de strijders: we zijn met jullie tot de overwinning.',
       truth: 'De waarheid kan niet verborgen blijven. Gerechtigheid moet worden gediend.',
       promise: 'Dit is geen bedreiging. Dit is een belofte van transparantie en verantwoordelijkheid.',
-      contact: 'Voor verificatie en contact: contact@genz212.me'
+      contact: 'Voor verificatie en contact: contact@genz212.me',
+      evidenceBtn: 'Bekijk Bewijs', // for 'nl'
+
     },
     pt: {
       alert: 'ANÚNCIO MOVIMENTO CRÍTICO',
@@ -249,7 +261,8 @@ export default function CountdownAnnouncement() {
       solidarity3: 'Aos detidos: vocês não estão sozinhos. Aos mártires: nunca os esqueceremos. Aos lutadores: estamos com vocês até a vitória.',
       truth: 'A verdade não pode permanecer escondida. A justiça deve ser feita.',
       promise: 'Isto não é uma ameaça. Esta é uma promessa de transparência e responsabilidade.',
-      contact: 'Para verificação e contato: contact@genz212.me'
+      contact: 'Para verificação e contato: contact@genz212.me',
+      evidenceBtn: 'Ver Evidências', // for 'pt'
     }
   };
 
@@ -396,6 +409,20 @@ export default function CountdownAnnouncement() {
             ))}
           </div>
         </div>
+
+        {/* Evidence Button */}
+            <div className="flex justify-center mt-6">
+              
+                href="/evidence"
+                className={`group ${accentBg} border-2 ${darkMode ? 'border-red-500/50' : 'border-red-400'} backdrop-blur-xl rounded-xl px-8 py-4 shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-3`}
+              >
+                <Shield className={`w-6 h-6 ${accentText} group-hover:animate-pulse`} />
+                <span className={`text-lg font-bold ${accentText}`}>
+                  {t.evidenceBtn}
+                </span>
+                <ExternalLink className={`w-5 h-5 ${accentText}`} />
+              </a>
+            </div>
 
         {/* Evidence Section */}
         <div className={`${cardBg} border backdrop-blur-xl rounded-3xl p-8 mb-8 shadow-2xl`}>
