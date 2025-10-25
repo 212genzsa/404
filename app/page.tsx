@@ -411,18 +411,18 @@ export default function CountdownAnnouncement() {
         </div>
 
         {/* Evidence Button */}
-            <div className="flex justify-center mt-6">
-              
-                href="/evidence"
-                className={`group ${accentBg} border-2 ${darkMode ? 'border-red-500/50' : 'border-red-400'} backdrop-blur-xl rounded-xl px-8 py-4 shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-3`}
-              >
-                <Shield className={`w-6 h-6 ${accentText} group-hover:animate-pulse`} />
-                <span className={`text-lg font-bold ${accentText}`}>
-                  {t.evidenceBtn}
-                </span>
-                <ExternalLink className={`w-5 h-5 ${accentText}`} />
-              </a>
-            </div>
+          <div className="flex justify-center mt-6">
+            
+              href="/evidence"
+              className={`group ${accentBg} border-2 ${darkMode ? 'border-red-500/50' : 'border-red-400'} backdrop-blur-xl rounded-xl px-8 py-4 shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-3`}
+            >
+              <Shield className={`w-6 h-6 ${accentText} group-hover:animate-pulse`} />
+              <span className={`text-lg font-bold ${accentText}`}>
+                {t.evidenceBtn}
+              </span>
+              <ExternalLink className={`w-5 h-5 ${accentText}`} />
+            </a>
+          </div>
 
         {/* Evidence Section */}
         <div className={`${cardBg} border backdrop-blur-xl rounded-3xl p-8 mb-8 shadow-2xl`}>
