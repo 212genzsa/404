@@ -412,7 +412,7 @@ export default function CountdownAnnouncement() {
 
         {/* Evidence Button */}
           <div className="flex justify-center mt-6">
-            
+  
               href="/evidence"
               className={`group ${accentBg} border-2 ${darkMode ? 'border-red-500/50' : 'border-red-400'} backdrop-blur-xl rounded-xl px-8 py-4 shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-3`}
             >
